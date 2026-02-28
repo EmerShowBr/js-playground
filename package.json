@@ -4,7 +4,9 @@
   "description": "Um espaço interativo para praticar e experimentar conceitos de JavaScript. Contendo exemplos, exercícios e pequenos projetos voltados para o desenvolvimento de habilidades na linguagem",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }
